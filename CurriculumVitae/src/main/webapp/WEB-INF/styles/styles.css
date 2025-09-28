@@ -1,0 +1,73 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28 sept 2025, 12:19:18
+    Author     : Gael
+*/
+body {
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding: 0;
+    background-color: #F4F4F4;
+    color: #333;
+    
+}
+
+header{
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+header h1{
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    
+}
+
+figure img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    margin: 10px 0;
+    
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline; 
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+section article {
+    border-left: 3px solid #ccc;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    box-shadow: none; 
+}
